@@ -10,38 +10,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
    
     <title>Checkout form!</title>
-    <style>
-        form > * {
-            display: block;
-            margin: 10px 0;
-        }
-    </style>
 
   </head>
   <body>
     <div class="main">
 
-        <form action="/page-for-form-handling" method="POST">
+        <form>
     
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email">
+            <input name="email" type="email">
 
-            <label for="email">Enter your name:</label>
-            <input type="name" id="name" name="name">
+            <input name="name" type="name">
 
-            <label for="address">Enter your address:</label>
-            <input type="address" id="address" name="address">
+            <input name="address" type="address">
 
-            <label for="phone">Enter your phone:</label>
-            <input type="phone" id="phone" name="phone">
+            <input name="phone" type="phone">
 
-            <label for="color">Enter your color:</label>
-            <input type="color" id="color" name="color">
+            <input name="color" type="color">
 
-            <label for="date">Selected date</label>
-            <input type="date" name="delivery_date" id="date" required/>
-          </form>
-      
+            <input name="delivery_date" type="date"/>
+
+        </form>
+
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
