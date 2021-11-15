@@ -8,9 +8,55 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+    <title>Checkout form!</title>
+    <style>
+        form > * {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+
   </head>
   <body>
     <div class="main">
+
+        <form action="/page-for-form-handling" method="POST">
+    
+            <label for="email">Email</label>
+            <input type="email" name="email" 
+            id="email" placeholder="Your email" 
+            required
+            autocomplete
+            autofocus />
+
+            <label for="name">Name</label>
+            <input type="text" name="name" 
+            id="name" placeholder="Your name" 
+            required
+            autocomplete />
+
+            <label for="address">Address</label>
+            <input type="text" name="address" 
+            id="name" placeholder="Your address" 
+            required
+            autocomplete />
+
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" 
+            id="name" placeholder="Your phone" 
+            required
+            autocomplete />
+
+            <label for="color">Color</label>
+            <input type="color" name="color" 
+            id="name" placeholder="Your name" 
+            required
+            autocomplete />
+
+            <label for="date">Selected date</label>
+            <input type="date" name="delivery_date" id="date" required/>
+
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
     </div>
